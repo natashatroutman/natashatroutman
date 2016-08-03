@@ -10,6 +10,10 @@ h1 span.visible-xs {
   line-height: 1px;
 }
 
+.spacer {
+  margin: 0 5px;
+}
+
 .content *,
 .contact {
   background-color: #e3ecf2;
