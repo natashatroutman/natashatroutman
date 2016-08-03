@@ -6,9 +6,13 @@ h1 {
   color: white;
 }
 
+h1 span.visible-xs {
+  line-height: 1px;
+}
+
 .content *,
 .contact {
-  background-color: white;
+  background-color: #e3ecf2;
 }
 
 .headshot {
