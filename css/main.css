@@ -1,0 +1,16 @@
+body {
+  background-color: #0974aa;
+}
+
+h1 {
+  color: white;
+}
+
+.content *,
+.contact {
+  background-color: white;
+}
+
+.headshot {
+    /*width: 100px;*/
+}
