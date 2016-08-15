@@ -46,12 +46,15 @@ h1 span.visible-xs {
   padding-bottom: 20px;
 }
 
-a.active {
-  color: #175b9c;
-}
-
 a.h2 {
   text-decoration: underline;
+  color: white;
+  font-weight: normal;
+}
+
+a.h2:hover,
+a.h2.active {
+  text-decoration: none;
 }
 
 hr.light {
