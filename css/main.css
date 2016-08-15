@@ -42,6 +42,10 @@ h1 span.visible-xs {
     /*width: 100px;*/
 }
 
+a.h2 {
+  text-decoration: underline;
+}
+
 hr.light {
   border-color: #175b9c;
     padding: 0;
