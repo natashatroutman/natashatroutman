@@ -1,8 +1,18 @@
 body {
-  background-color: #0974aa;
+  background: #175b9c; /* Old browsers */
+  background: -moz-linear-gradient(top, #175b9c, #3283b2);
+  background: -webkit-linear-gradient(top, #175b9c, #3283b2);
+  background: linear-gradient(to bottom, #175b9c, #3283b2);
 }
 
 h1 {
+  color: #e3ecf2;
+}
+
+h2 {
+}
+
+.subtext {
   color: #e3ecf2;
 }
 
@@ -18,6 +28,7 @@ h1 span.visible-xs {
   margin: 0 5px;
 }
 
+.content,
 .content *,
 .contact {
   background-color: #e3ecf2;
@@ -25,4 +36,36 @@ h1 span.visible-xs {
 
 .headshot {
     /*width: 100px;*/
+}
+
+hr.light {
+  border-color: #175b9c;
+    padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+}
+
+hr.star-light {
+  border-color: #175b9c;
+    padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+}
+
+hr.star-light:after {
+    background-color: #e3ecf2   ;
+    color: #3e3f3a;
+    content: "\f005";
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    font-size: 2em;
+    padding: 0 .25em;
 }
