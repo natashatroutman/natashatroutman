@@ -42,6 +42,10 @@ h1 span.visible-xs {
     /*width: 100px;*/
 }
 
+.menu {
+  padding-bottom: 20px;
+}
+
 a.h2 {
   text-decoration: underline;
 }
